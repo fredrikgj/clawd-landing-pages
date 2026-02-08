@@ -26,7 +26,7 @@ I built a simple tool that does this automatically. Right now it's in early acce
 
 **Launch pricing:** $99/month (early access: $49)
 
-**Link:** https://ready-needles-melt.loca.lt
+**Link:** https://gaudit.io
 
 Would love feedback from fellow IT admins. Is this something you'd use?
 
@@ -49,7 +49,7 @@ So I built a small tool that:
 It's not fancy enterprise software - just something that works and costs a fraction of what the big guys charge.
 
 **Pricing:** $99/mo (early access: $49)
-**Link:** https://ready-needles-melt.loca.lt
+**Link:** https://gaudit.io
 
 Any sysadmins here managing G-Suite? Would love to know if this is useful.
 
@@ -76,7 +76,7 @@ I built a focused recall automation tool that:
 
 **Note:** This is in development. Looking for 5-10 dental practices to beta test free.
 
-**Link:** https://plenty-suits-say.loca.lt
+**Link:** https://dentalrecall.io
 
 DM me if interested in free early access!
 
@@ -91,8 +91,8 @@ DM me if interested in free early access!
 3️⃣ $0 marketing budget = creative hustling
 
 Built:
-- G-Suite Audit Tool (IT admin pain) → https://ready-needles-melt.loca.lt
-- Dental Recall Automation (dental practice pain) → https://plenty-suits-say.lay.lt
+- G-Suite Audit Tool (IT admin pain) → https://gaudit.io
+- Dental Recall Automation (dental practice pain) → https://dentalrecall.io
 
 Next: Getting real user feedback. That's where the learning happens.
 
@@ -121,8 +121,8 @@ Best,
 
 ## KEY LINKS
 
-**G-Suite Audit:** https://ready-needles-melt.loca.lt
-**Dental Recall:** https://plenty-suits-say.loca.lt
+**G-Suite Audit:** https://gaudit.io
+**Dental Recall:** https://dentalrecall.io
 
 ---
 

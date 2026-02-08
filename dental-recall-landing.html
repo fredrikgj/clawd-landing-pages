@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Recall Automation - Simple, Affordable, HIPAA Compliant</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 60px; }
+        h1 { font-size: 2.5rem; margin-bottom: 16px; color: #1a1a2e; }
+        .tagline { font-size: 1.25rem; color: #666; margin-bottom: 24px; }
+        .problem { background: #fef2f2; border-left: 4px solid #ef4444; padding: 24px; margin-bottom: 40px; border-radius: 8px; }
+        .solution { background: #f0fdf4; border-left: 4px solid #22c55e; padding: 24px; margin-bottom: 40px; border-radius: 8px; }
+        h2 { color: #1a1a2e; margin-bottom: 16px; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-bottom: 40px; }
+        .feature { text-align: center; padding: 24px; background: #f8fafc; border-radius: 12px; }
+        .feature-icon { font-size: 2rem; margin-bottom: 12px; }
+        .cta { text-align: center; margin-bottom: 40px; }
+        .cta-form { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+        .cta-input { padding: 14px 20px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; width: 300px; }
+        .cta-button { padding: 14px 32px; background: #2563eb; color: white; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; font-weight: 600; }
+        .cta-button:hover { background: #1d4ed8; }
+        .pricing { text-align: center; padding: 40px; background: #f8fafc; border-radius: 12px; }
+        .price { font-size: 3rem; font-weight: 700; color: #2563eb; }
+        .price-period { font-size: 1rem; color: #666; }
+        footer { text-align: center; color: #999; font-size: 0.875rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🦷 Dental Recall Automation</h1>
+            <p class="tagline">Automated patient reminders for Open Dental practices</p>
+        </header>
+
+        <div class="problem">
+            <h2>🚨 The Problem</h2>
+            <p>Dental practices lose 30-40% of revenue to missed appointments:</p>
+            <ul style="margin-top: 12px; margin-left: 20px;">
+                <li>Manual recall calls take hours every week</li>
+                <li>Staff time wasted on phone tag</li>
+                <li>Patients fall through the cracks</li>
+                <li>Existing tools are expensive and bloated</li>
+            </ul>
+        </div>
+
+        <div class="solution">
+            <h2>✅ The Solution</h2>
+            <p>Automated SMS & email reminders that actually work:</p>
+            <ul style="margin-top: 12px; margin-left: 20px;">
+                <li>🔔 Automatic recall detection from Open Dental</li>
+                <li>📱 SMS + email reminders with delivery tracking</li>
+                <li>✅ Patient 2-way confirmation</li>
+                <li>🔒 HIPAA compliant end-to-end</li>
+            </ul>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>5-Minute Setup</h3>
+                <p>Works with your existing Open Dental setup. No migration.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💰</div>
+                <h3>Half the Cost</h3>
+                <p>$99/month vs $199-499 for competitors.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🤖</div>
+                <h3>AI-Powered</h3>
+                <p>Smart message optimization and response parsing.</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>🚀 Early Access - 50% Off Launch Price</h2>
+            <p style="margin-bottom: 20px; color: #666;">Join dental practices waiting for a better way</p>
+            <form class="cta-form" onsubmit="handleSubmit(event)">
+                <input type="email" class="cta-input" placeholder="Enter your email" required>
+                <button type="submit" class="cta-button">Get Early Access</button>
+            </form>
+            <p style="margin-top: 12px; font-size: 0.875rem; color: #999;">No spam. Unsubscribe anytime.</p>
+        </div>
+
+        <div class="pricing">
+            <h2>Launch Pricing</h2>
+            <p style="margin-bottom: 16px; color: #666;">Early access gets 50% off</p>
+            <div class="price">$99<span class="price-period">/month</span></div>
+            <p style="margin-top: 12px; color: #666;">or $899/year (2 months free)</p>
+        </div>
+
+        <footer>
+            <p>Built for modern dental practices</p>
+        </footer>
+    </div>
+
+    <script>
+        function handleSubmit(e) {
+            e.preventDefault();
+            const email = e.target.querySelector('input').value;
+            alert('Thanks! We\'ll be in touch at ' + email);
+        }
+    </script>
+</body>
+</html>

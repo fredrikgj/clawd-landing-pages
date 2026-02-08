@@ -1,0 +1,14 @@
+
+🚀 CLAWD LANDING PAGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Server running at: http://localhost:3001
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Landing Pages:
+  /             → G-Suite Audit
+  /dental       → Dental Recall
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+API Endpoints:
+  POST /api/signup?campaign=workspace|dental
+  GET  /api/signups?campaign=workspace|dental
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    

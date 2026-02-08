@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace Audit - Find inactive users & security gaps</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 60px; }
+        h1 { font-size: 2.5rem; margin-bottom: 16px; color: #1a1a2e; }
+        .tagline { font-size: 1.25rem; color: #666; margin-bottom: 24px; }
+        .problem { background: #fef2f2; border-left: 4px solid #ef4444; padding: 24px; margin-bottom: 40px; border-radius: 8px; }
+        .solution { background: #f0fdf4; border-left: 4px solid #22c55e; padding: 24px; margin-bottom: 40px; border-radius: 8px; }
+        h2 { color: #1a1a2e; margin-bottom: 16px; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-bottom: 40px; }
+        .feature { text-align: center; padding: 24px; background: #f8fafc; border-radius: 12px; }
+        .feature-icon { font-size: 2rem; margin-bottom: 12px; }
+        .cta { text-align: center; margin-bottom: 40px; }
+        .cta-form { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+        .cta-input { padding: 14px 20px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; width: 300px; }
+        .cta-button { padding: 14px 32px; background: #2563eb; color: white; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; font-weight: 600; }
+        .cta-button:hover { background: #1d4ed8; }
+        .pricing { text-align: center; padding: 40px; background: #f8fafc; border-radius: 12px; }
+        .price { font-size: 3rem; font-weight: 700; color: #2563eb; }
+        .price-period { font-size: 1rem; color: #666; }
+        footer { text-align: center; color: #999; font-size: 0.875rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Workspace Audit</h1>
+            <p class="tagline">Automate your Google Workspace security audit in minutes</p>
+        </header>
+
+        <div class="problem">
+            <h2>🚨 The Problem</h2>
+            <p>Your Google Workspace is a security risk you can't see:</p>
+            <ul style="margin-top: 12px; margin-left: 20px;">
+                <li>Inactive users wasting license costs</li>
+                <li>Orphaned files with sensitive data</li>
+                <li>Unknown file sharing permissions</li>
+                <li>No visibility into security gaps</li>
+            </ul>
+        </div>
+
+        <div class="solution">
+            <h2>✅ The Solution</h2>
+            <p>Get a complete audit report in 5 minutes:</p>
+            <ul style="margin-top: 12px; margin-left: 20px;">
+                <li>🔔 Inactive user alerts (30/60/90 days)</li>
+                <li>📁 Orphaned file detection</li>
+                <li>🔒 Security compliance checklist</li>
+                <li>📊 License utilization report</li>
+            </ul>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>5-Minute Setup</h3>
+                <p>Connect your workspace with one click. No coding required.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔄</div>
+                <h3>Weekly Reports</h3>
+                <p>Automated audits delivered to your inbox every week.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🛡️</div>
+                <h3>HIPAA Compliant</h3>
+                <p>Built for healthcare, finance, and regulated industries.</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>🚀 Early Access - 50% Off Launch Price</h2>
+            <p style="margin-bottom: 20px; color: #666;">Join 47 companies waiting for launch</p>
+            <form class="cta-form" onsubmit="handleSubmit(event)">
+                <input type="email" class="cta-input" placeholder="Enter your email" required>
+                <button type="submit" class="cta-button">Get Early Access</button>
+            </form>
+            <p style="margin-top: 12px; font-size: 0.875rem; color: #999;">No spam. Unsubscribe anytime.</p>
+        </div>
+
+        <div class="pricing">
+            <h2>Launch Pricing</h2>
+            <p style="margin-bottom: 16px; color: #666;">Early access gets 50% off</p>
+            <div class="price">$99<span class="price-period">/month</span></div>
+            <p style="margin-top: 12px; color: #666;">or $899/year (2 months free)</p>
+        </div>
+
+        <footer>
+            <p>Made for IT admins who care about security</p>
+        </footer>
+    </div>
+
+    <script>
+        function handleSubmit(e) {
+            e.preventDefault();
+            const email = e.target.querySelector('input').value;
+            alert('Thanks! We\'ll be in touch at ' + email);
+            // Integration: Send to database/Airtable/Notion
+        }
+    </script>
+</body>
+</html>

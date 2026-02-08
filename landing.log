@@ -1,0 +1,13 @@
+
+🚀 Workspace Audit Landing Page
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Server running at: http://localhost:8080
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Features:
+- Landing page at /
+- Email signup at POST /api/signup
+- Admin view at GET /api/signups
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    
+📧 New signup: test@example.com

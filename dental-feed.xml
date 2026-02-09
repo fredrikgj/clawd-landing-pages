@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DentalRecall.io Updates</title>
+    <link>https://dentalrecall.io</link>
+    <description>Dental Recall Automation Updates</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://dentalrecall.io/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>Dental Recall Automation Launched</title>
+      <link>https://dentalrecall.io</link>
+      <description>Simple, affordable, HIPAA compliant recall automation for dental practices. Integrates with Open Dental.</description>
+      <pubDate>Mon, 10 Feb 2026 00:00:00 GMT</pubDate>
+      <guid>https://dentalrecall.io</guid>
+    </item>
+    
+    <item>
+      <title>Beta Program - Free Access</title>
+      <link>https://dentalrecall.io</link>
+      <description>Looking for 5-10 dental practices to beta test free.</description>
+      <pubDate>Mon, 10 Feb 2026 00:00:00 GMT</pubDate>
+      <guid>https://dentalrecall.io#beta</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaudi.io Updates</title>
+    <link>https://gaudit.io</link>
+    <description>G-Suite Audit Tool Updates</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://gaudit.io/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>G-Suite Audit Tool Launched</title>
+      <link>https://gaudit.io</link>
+      <description>Automated Google Workspace security audits. Find inactive users and save on license costs.</description>
+      <pubDate>Mon, 10 Feb 2026 00:00:00 GMT</pubDate>
+      <guid>https://gaudit.io</guid>
+    </item>
+    
+    <item>
+      <title>Early Access - 50% Off</title>
+      <link>https://gaudit.io</link>
+      <description>Launch pricing: $99/month (early access: $49)</description>
+      <pubDate>Mon, 10 Feb 2026 00:00:00 GMT</pubDate>
+      <guid>https://gaudit.io#pricing</guid>
+    </item>
+  </channel>
+</rss>

@@ -19,8 +19,41 @@ const mimeTypes = {
     '.js': 'application/javascript',
     '.css': 'text/css',
     '.json': 'application/json',
+    '.xml': 'application/rss+xml',
     '.png': 'image/png',
     '.jpg': 'image/jpeg',
+};
+
+// RSS Feed templates
+const rssTemplates = {
+    workspace: `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Gaudi.io Updates</title>
+    <link>https://gaudit.io</link>
+    <description>G-Suite Audit Tool Updates</description>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <item>
+      <title>G-Suite Audit Tool Launched</title>
+      <link>https://gaudit.io</link>
+      <description>Automated Google Workspace security audits.</description>
+    </item>
+  </channel>
+</rss>`,
+    dental: `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>DentalRecall.io Updates</title>
+    <link>https://dentalrecall.io</link>
+    <description>Dental Recall Automation Updates</description>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <item>
+      <title>Dental Recall Automation Launched</title>
+      <link>https://dentalrecall.io</link>
+      <description>Simple, affordable, HIPAA compliant recall automation.</description>
+    </item>
+  </channel>
+</rss>`
 };
 
 const server = http.createServer((req, res) => {
@@ -76,6 +109,18 @@ const server = http.createServer((req, res) => {
         }
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify(result, null, 2));
+        return;
+    }
+
+    // RSS Feeds (for IFTTT automation)
+    if (req.method === 'GET' && pathname === '/feed.xml') {
+        res.writeHead(200, { 'Content-Type': 'application/rss+xml' });
+        res.end(rssTemplates.workspace);
+        return;
+    }
+    if (req.method === 'GET' && pathname === '/dental/feed.xml') {
+        res.writeHead(200, { 'Content-Type': 'application/rss+xml' });
+        res.end(rssTemplates.dental);
         return;
     }
 

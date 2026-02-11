@@ -58,12 +58,13 @@
 - **Viability Score:** 9/10
 
 #### 2. 🇪🇺 **German NIS-2 Compliance Tool**
-- **Problem:** German NIS-2 Act effective Dec 2025
-- **Target:** German essential/important entities
-- **Evidence:** "Stricter cybersecurity obligations"
-- **Competition:** Very Low (new regulation)
-- **Pricing:** €99-299/mo
-- **MVP:** Checklist + documentation generator
+- **Problem:** German NIS-2 Act effective Dec 2025, BSI oversight begins April 2026
+- **Evidence:** "30,000 entities affected (up from 4,500), fines up to €10M or 2% global turnover"
+- **Target:** German essential/important entities (50+ employees)
+- **Competition:** Very Low (new regulation, no dedicated SMB tools yet)
+- **Pricing:** €99-299/mo (enterprise tools cost €10K+)
+- **MVP:** Checklist + documentation generator + BSI registration guide
+- **Viability Score:** 9.5/10
 - **Viability Score:** 9/10
 
 #### 3. 🇪🇺 **EU Invoice Factoring / Revenue Advance**
@@ -122,12 +123,13 @@
 - **Viability Score:** 8/10
 
 #### 9. 🇺🇸 **Subscription Audit Tool**
-- **Problem:** Every company wastes $ on unused SaaS licenses
-- **Evidence:** Average company has 130+ SaaS apps, 30% unused
+- **Problem:** Every company wastes $18-21M annually on unused SaaS licenses
+- **Evidence:** "51% license waste rate", "53% of SaaS applications go underutilized"
+- **Target:** IT managers, finance teams at mid-size companies
 - **Pricing:** $29-99/mo
-- **Competition:** Low
-- **MVP:** License usage tracking + auto-cancellation
-- **Viability Score:** 7/10
+- **Competition:** Low (Zylo, License Logic enterprise-focused)
+- **MVP:** Usage tracking + auto-cancellation recommendations
+- **Viability Score:** 8/10
 
 #### 10. 🇺🇸 **Contractor Management Platform**
 - **Problem:** Hours tracking across job sites, compliance documentation
@@ -143,10 +145,11 @@
 
 #### 11. 🤖 **AI-Powered Accessibility Compliance (Websites)**
 - **Problem:** 98% of websites fail ADA/WCAG compliance, risking lawsuits
-- **Evidence:** $2.1B compliance software market, only 4 competitors
-- **Pricing:** $49-199/mo
-- **Competition:** Very Low
-- **MVP:** Automated compliance checker + fixes
+- **Evidence:** "$2.1B compliance software market", "April 2026 ADA Title II deadline"
+- **Target:** Small businesses, WordPress/Squarespace sites
+- **Pricing:** $49-199/mo (accessiBe starts at $490/year for 5K visits)
+- **Competition:** Very Low (accessiBe, Level Access enterprise-focused)
+- **MVP:** Automated compliance checker + remediation suggestions
 - **Viability Score:** 9/10
 
 #### 12. 🤖 **AI Meeting → Tasks Automation**
@@ -301,15 +304,37 @@
 
 ---
 
-## 🔥 TOP  Medium | Differentiation5 PRIORITIES (Based on Extended Research)
+## 🔥 TOP 5 PRIORITIES (Based on Extended Research with Validation Data)
 
 | Rank | Opportunity | Why Now | Confidence |
 |------|-------------|---------|------------|
-| 1️⃣ | **🇪🇺 Cross-Border VAT Tool** | €100B gap, complex, underserved, low competition | High |
-| 2️⃣ | **🤖 AI Accessibility Compliance** | 98% websites fail compliance, only 4 competitors, $2.1B market | High |
-| 3️⃣ | **🇪🇺 German NIS-2 Compliance** | New law (Dec 2025), very low competition | High |
-| 4️⃣ | **🇺🇸 Subcontractor Payment Management** | 53K+ contractors affected, construction booming | Medium |
-| 5️⃣ | **🤖 AI Podcast Show Notes** | $23B industry, 500K+ podcasters, low competition | Medium |
+| 1️⃣ | **🇪🇺 German NIS-2 Compliance Tool** | 30K entities affected, €10M fines, April 2026 deadline, no dedicated SMB tools | High |
+| 2️⃣ | **🤖 AI Accessibility Compliance** | 98% websites non-compliant, $2.1B market, only 1 affordable competitor (accessiBe $490/yr) | High |
+| 3️⃣ | **🇪🇺 Cross-Border VAT Tool** | €100B VAT gap, EU OSS complexity, underserved SMBs | Medium |
+| 4️⃣ | **🇺🇸 Subscription Audit Tool** | $18-21M annual waste per company, 51% license waste rate | Medium |
+| 5️⃣ | **🇺🇸 Subcontractor Payment Management** | 53K+ contractors, construction boom, spreadsheet-based workflows | Medium |
+
+---
+
+## 💡 KEY STATISTICS VALIDATED
+
+### SaaS Waste (Subscription Audit Tool)
+- **51% license waste rate** (enterprise average)
+- **$18-21 million** wasted annually per enterprise
+- **53% of SaaS applications** go underutilized or unused
+- **33% of IT leaders** waste 25%+ of budgets on unused software
+
+### NIS-2 Germany
+- **30,000 entities** now in scope (vs 4,500 previously)
+- **€10 million** or 2% global turnover fines
+- **April 2026** registration deadline with BSI
+- 50+ employees threshold brings mid-market into scope
+
+### Accessibility Compliance
+- **98% of websites** fail ADA/WCAG compliance
+- **$2.1 billion** compliance software market
+- **April 2026** ADA Title II deadline for government entities
+- Small businesses can claim **$5,000 Disabled Access Credit**
 
 ---
 
